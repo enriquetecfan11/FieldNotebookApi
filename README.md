@@ -1,26 +1,10 @@
 # Field Notebook Api
 
-* nodejs
-
+Made with:
+- nodejs
 - express
 - postgreSQL
 - sequelize
-
-## Use with Docker
-
-1 - You new to create a docker image called cuardenodecampoapi
-
-```
-docker build -t cuardenodecampoapi .
-```
-
-2 - Now start the dockerfile
-
-```
-docker-compose up
-```
-
-3 - Test with postman
 
 ## Project Structure
 
@@ -46,3 +30,15 @@ docker-compose up
         └── postRoutes.js
 
 ```
+
+## Use with Docker
+
+1 - You new to create a docker image called cuardenodecampoapi
+```
+docker build -t cuardenodecampoapi .
+```
+2 - Now start the dockerfile
+```
+docker-compose up
+```
+3 - Test with postman
