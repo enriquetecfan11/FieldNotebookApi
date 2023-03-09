@@ -1,14 +1,26 @@
-# New Field Notebook Api
+# Field Notebook Api
 
-This is a the new version of the field notebook api and its works with this stack 
-- nodejs
+* nodejs
+
 - express
 - postgreSQL
 - sequelize
 
-## Future Changes
+## Use with Docker
 
-In future commit we add this api to a docker file to put in a docker container a run it
+1 - You new to create a docker image called cuardenodecampoapi
+
+```
+docker build -t cuardenodecampoapi .
+```
+
+2 - Now start the dockerfile
+
+```
+docker-compose up
+```
+
+3 - Test with postman
 
 ## Project Structure
 
@@ -27,7 +39,7 @@ In future commit we add this api to a docker file to put in a docker container a
     ├── index.js
     ├── models
     │   └── models.js
-    │  
+    │
     └── routes
         ├── deleteRoutes.js
         ├── getRoutes.js
