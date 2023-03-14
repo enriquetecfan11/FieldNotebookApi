@@ -82,9 +82,16 @@ export async function createDatos(req, res) {
     carnet: req.body.carnet,
   };
 
-  Datos.create(datos).then((datos) => {
-    res.send(datos);
-  });
+  console.log(datos)
+
+  res.status(200).send(
+    "Datos recibidos correctamente"
+  );
+
+
+  // Datos.create(datos).then((datos) => {
+  //   res.send(datos);
+  // });
 }
 
 export async function createActividades(req, res) {
